@@ -1,0 +1,348 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Gierman - Modern Fullstack Developer</title>
+    <link rel="stylesheet" href="assets/css/framework.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="author" href="humans.txt">
+  </head>
+	<body>
+
+		<header class="page-header sticky-header">
+			<div class="grid">
+				<div class="grid__row">
+		      <div class="grid__col12">
+		      	<div class="navbar-wrap">
+							<nav class="navbar">
+								<a class="navbar__title h3">David Gierman - <small>Modern Fullstack Developer</small></a>
+								<ul class="navbar-list">
+									<li class="navbar-list__item"><a href="#about">About</a></li>
+									<li class="navbar-list__item"><a href="#projects">Projects</a></li>
+									<li class="navbar-list__item"><a href="#skills">Skills</a></li>
+									<li class="navbar-list__item"><a href="#contact">Contact</a></li>
+								</ul>
+								<div class="search-wrap">
+									<input class="navbar__search" id="search" type="search" placeholder="Search" />
+								</div>
+							</nav>	
+						</div>
+		      </div>
+		    </div>
+			</div>
+		</header>
+
+		<div class="group"></div>
+
+		<section id="about">
+			<div class="herotron-wrap">
+				<div class="grid--fluid">
+					<div class="grid__row">
+						<div class="herotron">
+				      <h2 class='herotron-heading'>Hi, I'm David Gierman</h2>
+				      <p class="herotron-content">I'm an aspiring Fullstack Web Developer living in the great state of Oregon. I love all things JS and making the web a more beautiful place. </p>
+				      <!-- <div class="button-wrap">
+				      	<button class="btn btn-primary">Learn More</button>
+				      	<button class="btn btn-default">Contact Us</button>
+				      </div> -->
+				  	</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="projects">
+			<div class="grid--fluid">
+				<div class="grid__row">
+					<article class="article-content">
+						<header>
+							<h2>Projects</h2>
+						</header>
+						<p>Here is a sampling of some of the projects I have build while studying at the prestigious <a href="https://bovacademy.com/" target="_blank">Bov Academy</a>.</p>
+						<div class="vert-tab-wrapper">
+              <div class="vert-tab__tabGroup">
+                
+                <input type="radio" name="tabGroup1" id="vert-tab__rad1" class="vert-tab__radio" checked="checked"/>
+                <label class="vert-tab-label" for="vert-tab__rad1">Button Components</label>
+                <div class="vert-tab__content">
+                  <h3 class="vert-tab__content__title">Button Components</h3>
+                  <div class="carousel">
+
+                  	<!-- Carousel Item 1 -->
+									  <input type="radio" name="carousel-cap-item" id="buttons-ci-1" checked="checked" class="carousel--bullet carousel--bullet__flip"/>
+									  <div class="carousel--item">
+									    <img src="assets/img/buttons-1.png"/>
+									    <label for="buttons-ci-3" class="carousel--nav carousel--nav-previous"></label>
+									    <label id="next" for="buttons-ci-2" class="carousel--nav carousel--nav-next"></label>
+									    <div class="carousel-caption">
+									      <!-- <h3>Basic buttons</h3> -->
+											  <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+									    </div>
+									  </div>
+									  <label class="carousel--bullet carousel--bullet__flip" for="buttons-ci-1"></label>
+
+									  <!-- Carousel Item 2 -->
+									  <input type="radio" name="carousel-cap-item" id="buttons-ci-2" class="carousel--bullet carousel--bullet__flip"/>
+									  <div class="carousel--item">
+									    <img src="assets/img/buttons-2.png"/>
+									    <label for="buttons-ci-1" class="carousel--nav carousel--nav-previous"></label>
+									    <label for="buttons-ci-3" class="carousel--nav carousel--nav-next"></label>
+									    <div class="carousel-caption">
+									      <!-- <h3>Buttons of Different Sizes</h3> -->
+									      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+									    </div>
+									  </div>
+									  <label class="carousel--bullet carousel--bullet__flip" for="buttons-ci-2"></label>
+
+										<!-- Carousel Item 3 -->
+									  <input type="radio" name="carousel-cap-item" id="buttons-ci-3" class="carousel--bullet carousel--bullet__flip"/>
+									  <div class="carousel--item">
+									    <img src="assets/img/buttons-3.png"/>
+									    <label for="buttons-ci-2" class="carousel--nav carousel--nav-previous"></label>
+									    <label for="buttons-ci-1" class="carousel--nav carousel--nav-next"></label>
+									    <div class="carousel-caption">
+									      <!-- <h3>Hover State vs. Default State</h3> -->
+									      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+									    </div>
+									  </div>
+									  <label class="carousel--bullet carousel--bullet__flip" for="buttons-ci-3"></label>
+
+
+
+									</div>
+									<div class="group"></div>
+									<div class="project-description">
+										<h4>Technologies Used: <small>HTML5, CSS</small></h4>
+										<p><a href="http://dgeero89.github.io/web-components/components/buttons/" target="_blank">Live Demo</a> | <a href="https://github.com/DGeero89/web-components" class="github-link" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Source Code</a> </p>
+									</div>
+                </div> 
+
+
+                <input type="radio" name="tabGroup1" id="vert-tab__rad2" class="vert-tab__radio"/>
+                <label class="vert-tab-label" for="vert-tab__rad2">Profile Sidebar</label>
+                <div class="vert-tab__content">
+                  <h3 class="vert-tab__content__title">Profile Sidebar</h3>
+                  <div class="carousel">
+
+                  	<!-- Carousel Item 1 -->
+									  <input type="radio" name="carousel-cap-item2" id="sidebar-ci-1" checked="checked" class="carousel--bullet carousel--bullet__flip"/>
+									  <div class="carousel--item">
+									    <img src="assets/img/sidebar-1.png"/>
+									    <label for="sidebar-ci-2" class="carousel--nav carousel--nav-previous"></label>
+									    <label id="next" for="sidebar-ci-2" class="carousel--nav carousel--nav-next"></label>
+									    <div class="carousel-caption">
+									      <!-- <h3>Basic buttons</h3> -->
+											  <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+									    </div>
+									  </div>
+									  <label class="carousel--bullet carousel--bullet__flip" for="sidebar-ci-1"></label>
+
+									  <!-- Carousel Item 2 -->
+									  <input type="radio" name="carousel-cap-item2" id="sidebar-ci-2" class="carousel--bullet carousel--bullet__flip"/>
+									  <div class="carousel--item">
+									    <img src="assets/img/sidebar-2.png"/>
+									    <label for="sidebar-ci-1" class="carousel--nav carousel--nav-previous"></label>
+									    <label for="sidebar-ci-1" class="carousel--nav carousel--nav-next"></label>
+									    <div class="carousel-caption">
+									      <!-- <h3>Buttons of Different Sizes</h3> -->
+									      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+									    </div>
+									  </div>
+									  <label class="carousel--bullet carousel--bullet__flip" for="sidebar-ci-2"></label>
+									</div>
+									<div class="group"></div>
+									<div class="project-description">
+										<h4>Technologies Used: <small>HTML5, CSS</small></h4>
+										<p><a href="http://dgeero89.github.io/profile-sidebar/" target="_blank">Live Demo</a> | <a href="https://github.com/DGeero89/profile-sidebar" class="github-link" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Source Code</a> </p>
+									</div>
+                </div>
+
+                <input type="radio" name="tabGroup1" id="vert-tab__rad3" class="vert-tab__radio"/>
+                <label class="vert-tab-label" for="vert-tab__rad3">Forms</label>  
+               	<div class="vert-tab__content">
+                 <h3 class="vert-tab__content__title">Forms</h3>
+                 <div class="carousel">
+
+                  	<!-- Carousel Item 1 -->
+									  <input type="radio" name="carousel-cap-item3" id="forms-ci-1" checked="checked" class="carousel--bullet carousel--bullet__flip"/>
+									  <div class="carousel--item">
+									    <img src="assets/img/forms-1.png"/>
+									    <label for="forms-ci-3" class="carousel--nav carousel--nav-previous"></label>
+									    <label id="next" for="forms-ci-2" class="carousel--nav carousel--nav-next"></label>
+									    <div class="carousel-caption">
+									      <!-- <h3>Basic buttons</h3> -->
+											  <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+									    </div>
+									  </div>
+									  <label class="carousel--bullet carousel--bullet__flip" for="forms-ci-1"></label>
+
+									  <!-- Carousel Item 2 -->
+									  <input type="radio" name="carousel-cap-item3" id="forms-ci-2" class="carousel--bullet carousel--bullet__flip"/>
+									  <div class="carousel--item">
+									    <img src="assets/img/forms-2.png"/>
+									    <label for="forms-ci-1" class="carousel--nav carousel--nav-previous"></label>
+									    <label for="forms-ci-3" class="carousel--nav carousel--nav-next"></label>
+									    <div class="carousel-caption">
+									      <!-- <h3>Buttons of Different Sizes</h3> -->
+									      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+									    </div>
+									  </div>
+									  <label class="carousel--bullet carousel--bullet__flip" for="forms-ci-2"></label>
+
+									  <!-- Carousel Item 2 -->
+									  <input type="radio" name="carousel-cap-item3" id="forms-ci-3" class="carousel--bullet carousel--bullet__flip"/>
+									  <div class="carousel--item">
+									    <img src="assets/img/forms-3.png"/>
+									    <label for="forms-ci-2" class="carousel--nav carousel--nav-previous"></label>
+									    <label for="forms-ci-1" class="carousel--nav carousel--nav-next"></label>
+									    <div class="carousel-caption">
+									      <!-- <h3>Buttons of Different Sizes</h3> -->
+									      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+									    </div>
+									  </div>
+									  <label class="carousel--bullet carousel--bullet__flip" for="forms-ci-3"></label>
+									</div>
+									<div class="group"></div>
+									<div class="project-description">
+										<h4>Technologies Used: <small>HTML5, CSS, JavaScript</small></h4>
+										<p><a href="http://dgeero89.github.io/profile-sidebar/" target="_blank">Live Demo</a> | <a href="https://github.com/DGeero89/profile-sidebar" class="github-link" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Source Code</a> </p>
+									</div>
+                </div>
+
+                <input type="radio" name="tabGroup1" id="vert-tab__rad4" class="vert-tab__radio"/>
+                <label class="vert-tab-label" for="vert-tab__rad4">Calculator</label>  
+               	<div class="vert-tab__content">
+                 <h3 class="vert-tab__content__title">Calculator</h3>
+                 <div class="carousel">
+
+                  	<!-- Carousel Item 1 -->
+									  <input type="radio" name="carousel-cap-item4" id="calculator-ci-1" checked="checked" class="carousel--bullet carousel--bullet__flip"/>
+									  <div class="carousel--item">
+									    <img src="assets/img/calculator-1.png"/>
+									    <label for="calculator-ci-3" class="carousel--nav carousel--nav-previous"></label>
+									    <label id="next" for="calculator-ci-2" class="carousel--nav carousel--nav-next"></label>
+									    <div class="carousel-caption">
+									      <!-- <h3>Basic buttons</h3> -->
+											  <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+									    </div>
+									  </div>
+									  <label class="carousel--bullet carousel--bullet__flip" for="calculator-ci-1"></label>
+
+									  <!-- Carousel Item 2 -->
+									  <input type="radio" name="carousel-cap-item4" id="calculator-ci-2" class="carousel--bullet carousel--bullet__flip"/>
+									  <div class="carousel--item">
+									    <img src="assets/img/calculator-2.png"/>
+									    <label for="calculator-ci-1" class="carousel--nav carousel--nav-previous"></label>
+									    <label for="calculator-ci-3" class="carousel--nav carousel--nav-next"></label>
+									    <div class="carousel-caption">
+									      <!-- <h3>Buttons of Different Sizes</h3> -->
+									      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+									    </div>
+									  </div>
+									  <label class="carousel--bullet carousel--bullet__flip" for="calculator-ci-2"></label>
+
+									  <!-- Carousel Item 2 -->
+									  <input type="radio" name="carousel-cap-item4" id="calculator-ci-3" class="carousel--bullet carousel--bullet__flip"/>
+									  <div class="carousel--item">
+									    <img src="assets/img/calculator-3.png"/>
+									    <label for="calculator-ci-2" class="carousel--nav carousel--nav-previous"></label>
+									    <label for="calculator-ci-1" class="carousel--nav carousel--nav-next"></label>
+									    <div class="carousel-caption">
+									      <!-- <h3>Buttons of Different Sizes</h3> -->
+									      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+									    </div>
+									  </div>
+									  <label class="carousel--bullet carousel--bullet__flip" for="calculator-ci-3"></label>
+									</div>
+									<div class="group"></div>
+									<div class="project-description">
+										<h4>Technologies Used: <small>HTML5, CSS, JavaScript</small></h4>
+										<p><a href="http://dgeero89.github.io/calculator/" target="_blank">Live Demo</a> | <a href="https://github.com/DGeero89/calculator" class="github-link" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Source Code</a> </p>
+									</div>
+                </div>
+
+                <input type="radio" name="tabGroup1" id="vert-tab__rad5" class="vert-tab__radio"/>
+                <label class="vert-tab-label" for="vert-tab__rad5">Product Page</label>  
+               	<div class="vert-tab__content">
+                 <h3 class="vert-tab__content__title">Product Page</h3>
+                 <div class="carousel">
+
+                  	<!-- Carousel Item 1 -->
+									  <input type="radio" name="carousel-cap-item5" id="products-ci-1" checked="checked" class="carousel--bullet carousel--bullet__flip"/>
+									  <div class="carousel--item">
+									    <img src="assets/img/products-1.png"/>
+									    <label for="products-ci-3" class="carousel--nav carousel--nav-previous"></label>
+									    <label id="next" for="products-ci-2" class="carousel--nav carousel--nav-next"></label>
+									    <div class="carousel-caption">
+									      <!-- <h3>Basic buttons</h3> -->
+											  <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+									    </div>
+									  </div>
+									  <label class="carousel--bullet carousel--bullet__flip" for="products-ci-1"></label>
+
+									  <!-- Carousel Item 2 -->
+									  <input type="radio" name="carousel-cap-item5" id="products-ci-2" class="carousel--bullet carousel--bullet__flip"/>
+									  <div class="carousel--item">
+									    <img src="assets/img/products-2.png"/>
+									    <label for="products-ci-1" class="carousel--nav carousel--nav-previous"></label>
+									    <label for="products-ci-3" class="carousel--nav carousel--nav-next"></label>
+									    <div class="carousel-caption">
+									      <!-- <h3>Buttons of Different Sizes</h3> -->
+									      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+									    </div>
+									  </div>
+									  <label class="carousel--bullet carousel--bullet__flip" for="products-ci-2"></label>
+
+									  <!-- Carousel Item 2 -->
+									  <input type="radio" name="carousel-cap-item5" id="products-ci-3" class="carousel--bullet carousel--bullet__flip"/>
+									  <div class="carousel--item">
+									    <img src="assets/img/products-3.png"/>
+									    <label for="products-ci-2" class="carousel--nav carousel--nav-previous"></label>
+									    <label for="products-ci-1" class="carousel--nav carousel--nav-next"></label>
+									    <div class="carousel-caption">
+									      <!-- <h3>Buttons of Different Sizes</h3> -->
+									      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+									    </div>
+									  </div>
+									  <label class="carousel--bullet carousel--bullet__flip" for="products-ci-3"></label>
+									</div>
+									<div class="group"></div>
+									<div class="project-description">
+										<h4>Technologies Used: <small>HTML5, CSS, JavaScript</small></h4>
+										<p><a href="http://dgeero89.github.io/product-listing-page/" target="_blank">Live Demo</a> | <a href="https://github.com/DGeero89/product-listing-page" class="github-link" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Source Code</a> </p>
+									</div>
+                </div>
+
+                <!--tab content -->
+              </div> <!--vert-tab-group-->
+            </div> <!--vert tab wrapper -->
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="skills">
+			<div class="grid--fluid">
+				<article class="article-content">
+					<header>
+						<h2>Skills</h2>
+					</header>
+				</article>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="grid--fluid">
+				<article class="article-content">
+					<header>
+						<h2>Contact</h2>
+					</header>
+				</article>
+			</div>
+		</section>
+      
+  	<!-- <script src="js/main.js"></script> -->
+  </body>
+</html>
