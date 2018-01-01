@@ -1,3 +1,7 @@
+body {
+  background: #F2F2F3;
+}
+
 .page-header {
   background: #4286f4;
 }
@@ -142,15 +146,15 @@
 
  /******* CLEARFIX **********/
 
-.group:before,
-.group:after {
+.clearfix:before,
+.clearfix:after {
   content: "";
   display: table;
 } 
-.group:after {
+.clearfix:after {
   clear: both;
 }
-.group {
+.clearfix {
   zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 

@@ -4107,6 +4107,12 @@ input[class^="modal"] {
   border-radius: 5px 0 0 5px;
   background-color: #80bfff; }
 
+.progress__item--60-prog {
+  width: 60%;
+  height: 8px;
+  border-radius: 5px 0 0 5px;
+  background-color: #80bfff; }
+
 .progress__item--75-prog {
   width: 75%;
   height: 8px;
@@ -4143,6 +4149,10 @@ input[class^="modal"] {
   height: 8px;
   border-radius: 5px;
   background-color: #ff0000; }
+
+  .progress__item--red {
+    background-color: red;
+  }
 
 /*  Infinite Loading Progress Bar */
 .progress__item--inf-prog {
