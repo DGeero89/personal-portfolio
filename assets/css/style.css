@@ -110,12 +110,13 @@ body {
 }
 
  /******** HEROTRON **********/
-
+#about {
+  min-height: 100vh;
+}
 #about,
 #projects,
 #skills,
 #contact {
-  min-height: 100vh;
   padding-top: 60px;
 }
 
@@ -142,6 +143,16 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+
+.skills__wrap {
+  background: #fff;
+  padding: 1em;
+}
+
+.skills-tab-group {
+  min-height: 575px;
+  height: auto;
 }
 
  /******* CLEARFIX **********/
