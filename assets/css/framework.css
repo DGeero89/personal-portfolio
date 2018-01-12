@@ -4142,35 +4142,33 @@ input[class^="modal"] {
     background-color: #0000FF;
   }
 
+.progress__item {
+  padding: 6px;
+  min-height: 10px;
+  /*border-radius: 5px 0 0 5px;*/
+  background-color: #80bfff;
+  float: left;
+}
+
 .progress__item--25-prog {
-  width: 25%;
-  height: 8px;
-  border-radius: 5px 0 0 5px;
-  background-color: #80bfff; }
+  width: 25%;background-color: #80bfff;
+}
 
 .progress__item--50-prog {
   width: 50%;
-  height: 8px;
-  border-radius: 5px 0 0 5px;
-  background-color: #80bfff; }
+}
 
 .progress__item--60-prog {
-  width: 60%;
-  height: 8px;
-  border-radius: 5px 0 0 5px;
-  background-color: #80bfff; }
+  width: 60%;  
+}
 
 .progress__item--75-prog {
-  width: 75%;
-  height: 8px;
-  border-radius: 5px 0 0 5px;
-  background-color: #80bfff; }
+  width: 75%;  
+}
 
 .progress__item--100-prog {
-  width: 100%;
-  height: 8px;
-  border-radius: 5px;
-  background-color: #80bfff; }
+  width: 100%;  
+}
 
 /*  Contextual Alternatives Progress Bar */
 .progress__item--25-prog-qtr-color {
@@ -4178,6 +4176,11 @@ input[class^="modal"] {
   height: 8px;
   border-radius: 5px 0 0 5px;
   background-color: #00ff00; }
+
+  .progress__item--40-prog {
+  width: 40%;
+}
+
 
 .progress__item--50-prog-half-color {
   width: 50%;
@@ -4198,8 +4201,14 @@ input[class^="modal"] {
   background-color: #ff0000; }
 
   .progress__item--red {
-    background-color: red;
+    background-color: #F85F62;
+    color: #ffffff;
   }
+
+  .progress__item--blue {
+    background-color: #4C74E8;
+    color: #ffffff;
+  } 
 
 /*  Infinite Loading Progress Bar */
 .progress__item--inf-prog {
@@ -5506,6 +5515,19 @@ input[name="inno-acc-ctrl"] {
     font-size: 1.2rem;
     position: relative; }
 
+/* Utilities */
+
+.u-text-right {
+  text-align: right !important;
+}
+
+.u-text-red {
+  color: #F66065;
+}
+
+.u-text-blue {
+  color: #4E77E5;
+}
 /*
 <div class="code-reveal">
   <input  id="cr__ELEMENT" type="checkbox">

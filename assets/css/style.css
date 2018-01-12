@@ -155,6 +155,10 @@ body {
   height: auto;
 }
 
+.c-graph-skill-level {
+  height: 25%;
+}
+
  /******* CLEARFIX **********/
 
 .clearfix:before,
