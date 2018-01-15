@@ -5,6 +5,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>David Gierman - Modern Fullstack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/framework.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="author" href="humans.txt">
@@ -25,8 +26,21 @@
 									<li class="navbar-list__item"><a href="#contact">Contact</a></li>
 								</ul>
 								<div class="search-wrap">
-									<input class="navbar__search" id="search" type="search" placeholder="Search" />
+									<input class="navbar__search" id="search" type="search" required />
+									<label for="search" class="search-label">Search</label>
+									<!-- <div class="modal"> -->
+									    <!-- <h5>Link Modal</h5> -->
+									    
 								</div>
+								<label class="modal-link--cursor" for="link-modal"><i class="fa fa-search" aria-hidden="true"></i></label>
+									    <input class="modal__open" id="link-modal" type="checkbox">
+									    <div class="modal-bg"></div>
+									    <div class="link-modal">
+									        <label class="modal__close" for="link-modal"><i class="fa fa-times" aria-hidden="true"></i></label>
+									        <h2>Search Currently Disabled</h2>
+									        
+									    </div>
+								<!-- </div> -->
 							</nav>	
 						</div>
 		      </div>
@@ -346,68 +360,82 @@
 					    </div>
 					    <div class="grid__row">
 					    	<div class="grid__col4">
-					    		<div class="c-graph" >
-					    			<h3 class="c-graph-title u-text-red">Frontend Development</h3>
-					    			<div class="grid__row">
-					    				<div class="grid__col2">
-					    					<div class="c-graph-legend">
-					    						<div class="c-graph-skill-level">
-					    							Expert
-					    						</div>
-					    						<div class="c-graph-skill-level">
-					    							Proficient
-					    						</div>
-					    						<div class="c-graph-skill-level">
-					    							Competent
-					    						</div>
-					    						<div class="c-graph-skill-level">
-					    							Learning
-					    						</div>
-					    					</div>
-					    				</div>
-					    				<div class="grid__col2">
-					    					
-					    				</div>
-					    				<div class="grid__col2">
-					    					
-					    				</div>
-					    				<div class="grid__col2">
-					    					
-					    				</div>
-					    				<div class="grid__col2">
-					    					
-					    				</div>
-					    				<div class="grid__col2">
-					    					
-					    				</div>
-					    			</div>
+					    		<h3 class="c-graph-title u-text-red">Frontend Development</h3>
+					    		<div class="c-graph">
+			    					<div class="c-graph-skill-levels">
+			    						<div class="c-graph-skill-level">
+			    							Expert
+			    						</div>
+			    						<div class="c-graph-skill-level">
+			    							Proficient
+			    						</div>
+			    						<div class="c-graph-skill-level">
+			    							Competent
+			    						</div>
+			    						<div class="c-graph-skill-level">
+			    							Learning
+			    						</div>
+			    					</div>
+				    				<div class="c-graph-data">
+				    					<div class="c-skill-bar c-skill-bar__orange javascript"><span class="c-skill-label">JavaScript</span></div>
+				    					<div class="c-skill-bar c-skill-bar__blue html"><span class="c-skill-label">HTML/CSS</span></div>
+				    					<div class="c-skill-bar c-skill-bar__green reactjs"><span class="c-skill-label">ReactJS</span></div>
+				    					<div class="c-skill-bar c-skill-bar__pink jquery"><span class="c-skill-label">JQuery</span></div>
+				    					<div class="c-skill-bar c-skill-bar__yellow vuejs"><span class="c-skill-label">VueJS</span></div>
+				    				</div>
 					    		</div>
 					    	</div>
 					    	<div class="grid__col4">
-					    		<div class="c-graph" >
-					    			<h3 class="c-graph-title u-text-blue">Backend Development</h3>
-					    			<div class="grid__row">
-					    				<div class="grid__col2"></div>
-					    				<div class="grid__col2"></div>
-					    				<div class="grid__col2"></div>
-					    				<div class="grid__col2"></div>
-					    				<div class="grid__col2"></div>
-					    				<div class="grid__col2"></div>
-					    			</div>
+				    			<h3 class="c-graph-title u-text-blue">Backend Development</h3>
+				    			<div class="c-graph">
+			    					<div class="c-graph-skill-levels">
+			    						<div class="c-graph-skill-level">
+			    							Expert
+			    						</div>
+			    						<div class="c-graph-skill-level">
+			    							Proficient
+			    						</div>
+			    						<div class="c-graph-skill-level">
+			    							Competent
+			    						</div>
+			    						<div class="c-graph-skill-level">
+			    							Learning
+			    						</div>
+			    					</div>
+				    				<div class="c-graph-data">
+				    					<div class="c-skill-bar c-skill-bar__orange nodejs"><span class="c-skill-label">NodeJS</span></div>
+				    					<div class="c-skill-bar c-skill-bar__blue php"><span class="c-skill-label">PHP</span></div>
+				    					<div class="c-skill-bar c-skill-bar__green mysql"><span class="c-skill-label">MySQL</span></div>
+				    					<div class="c-skill-bar c-skill-bar__pink mongodb"><span class="c-skill-label">MongoDB</span></div>
+				    					<div class="c-skill-bar c-skill-bar__yellow expressjs"><span class="c-skill-label">ExpressJS</span></div>
+				    				</div>
 					    		</div>
 					    	</div>
 					    	<div class="grid__col4">
-					    		<div class="c-graph" >
-						    		<h3 class="c-graph-title">Other Skills</h3>
-						    		<div class="grid__row">
-					    				<div class="grid__col2"></div>
-					    				<div class="grid__col2"></div>
-					    				<div class="grid__col2"></div>
-					    				<div class="grid__col2"></div>
-					    				<div class="grid__col2"></div>
-					    				<div class="grid__col2"></div>
-					    			</div>
-				    			</div>
+				    			<h3 class="c-graph-title">Other Skills</h3>
+				    			<div class="c-graph">
+			    					<div class="c-graph-skill-levels">
+			    						<div class="c-graph-skill-level">
+			    							Expert
+			    						</div>
+			    						<div class="c-graph-skill-level">
+			    							Proficient
+			    						</div>
+			    						<div class="c-graph-skill-level">
+			    							Competent
+			    						</div>
+			    						<div class="c-graph-skill-level">
+			    							Learning
+			    						</div>
+			    					</div>
+				    				<div class="c-graph-data">
+				    					<div class="c-skill-bar c-skill-bar__orange writing"><span class="c-skill-label">Writing</span></div>
+				    					<div class="c-skill-bar c-skill-bar__blue problem-solving"><span class="c-skill-label">Problem Solving</span></div>
+				    					<div class="c-skill-bar c-skill-bar__green project-management"><span class="c-skill-label">Project Management</span></div>
+				    					<div class="c-skill-bar c-skill-bar__pink research"><span class="c-skill-label">Research</span></div>
+				    					<div class="c-skill-bar c-skill-bar__yellow public-speaking"><span class="c-skill-label">Public Speaking</span></div>
+				    				</div>
+					    		</div>
 					    	</div>
 					    </div>
 						</div>
@@ -422,9 +450,51 @@
 					<header>
 						<h2>Contact</h2>
 					</header>
+					<div class="c-business-card">
+						<label class="c-card-label">
+					    <input type="checkbox"  />
+					    <div class="c-card">
+					      <section class="front">
+						      <header>
+						      	<h1 class="c-card-heading">David Gierman</h1>
+						      	<span class="c-card-subtitle">Modern Fullstack Developer</span>
+						      	<span class="c-card-flip"><i class="fa fa-retweet fa-2x" aria-hidden="true"></i></span>
+						      </header>
+					        
+					        <p class="c-card-content">
+					        	Future Bov Academy Graduate. Passionate about learning and building fullstack web applications. Contact me for your next project!</p>
+					        <p class="c-card-links">
+					        	<a href="#" class="c-card-link">dgeero89@gmail.com</a> 
+					        	<a href="http://dgeero89.github.io/" class="c-card-link">dgeero89.github.io</a> 
+					        </p>
+					        	
+					        <footer class="c-card-footer">
+					        	<div class="c-card-encyclopedia">
+					        		<img src="assets/img/enc1.png" alt="David Gierman on Encyclopedia">
+					        		<p>David Gierman <br> on <a href="#">Encyclopedia.MD</a></p>
+					        	</div>
+					        	<div class="c-card-social-icons">
+					        		<a href="https://twitter.com/DavidGierman" target="_blank"><img src="assets/img/twitter.png" alt="Twitter"></a>
+					        		<a href="https://github.com/DGeero89" target="_blank"><img src="assets/img/github1.png" alt="Github"></a>
+					        		<a href="https://www.linkedin.com/in/david-gierman/" target="_blank"><img src="assets/img/linkedin.png" alt="Linkedin"></a>
+					        	</div>
+					        </footer>
+					      </section>
+					      <section class="back">
+					        <p class='c-card-back-name'>
+					          David Gierman
+					        </p>
+					      </section>
+					    </div>
+					</label>
+				</div>
 				</article>
 			</div>
 		</section>
+
+		<footer class="footer">
+			&copy; 2018 David Gierman
+		</footer>
       
   	<!-- <script src="js/main.js"></script> -->
   </body>
